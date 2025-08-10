@@ -1,1 +1,1 @@
-# Task4
+This project uses Logistic Regression to classify breast cancer tumors as malignant (1) or benign (0) based on the Breast Cancer Wisconsin dataset. After cleaning the data and encoding the target variable, the dataset is split into training and testing sets, features are standardized, and a Logistic Regression model is trained using scikit-learn. The model is evaluated with a confusion matrix, precision, recall, F1-score, ROC-AUC score, and an ROC curve, achieving around 96% accuracy and a 0.996 ROC-AUC, indicating excellent predictive performance.
